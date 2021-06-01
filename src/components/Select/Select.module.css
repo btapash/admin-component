@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.boxdown{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  
+}
+
+.boxdown select{
+  padding: 10px;
+  width: 250px;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.5);
+  -webkit-appearance:none;
+  outline: none;
+}
+
+.boxdown:before{
+  content: 'keyboard_arrow_down';
+  font-family: 'material icons';
+  font-size: 24px;
+  color: #666;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+
+}
+
+
+
+.boxup{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  
+}
+
+.boxup select{
+  padding: 10px;
+  width: 250px;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.5);
+  -webkit-appearance:none;
+  outline: none;
+}
+
+.boxup:before{
+  content: 'keyboard_arrow_up';
+  font-family: 'material icons';
+  font-size: 24px;
+  color: #666;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+
+}
